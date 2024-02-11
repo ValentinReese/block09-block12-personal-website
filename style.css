@@ -1,0 +1,262 @@
+/* PREFACE: Its a bit disoragnized and to be frank, its a house of cards. 
+I did the best I could with the knowledge i have right now. 
+When you resize the webpage, the positioning of elements doesnt fit the page or sits on top of each other.
+For the purposes of this assignment I thought that it would be fine to be submitted as is.
+I plan to fix this in the near future */
+
+
+body {
+    background: #181818;
+    font-family: 'Roboto', sans-serif;
+}
+
+nav {
+    padding: 20px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    background:
+      linear-gradient(
+        to right,
+        rgb(255, 255, 255),
+        rgb(255, 255, 255)
+      ),
+      linear-gradient(
+        to right,
+        rgb(255, 0, 0, 1),
+        rgb(255, 0, 180, 1),
+        rgb(255, 0, 200, 1)
+      );
+    background-size: 100% 2px, 0 2px;
+    background-position: 100% 100%, 0 100%;
+    background-repeat: no-repeat;
+    transition: background-size 400ms;
+}
+
+a:hover {
+    background-size: 0 3px, 100% 3px;
+}
+
+.home-anchor {
+    display: inline-block;
+    padding: 20px;
+}
+
+.about-anchor {
+    display: inline-block;
+    padding: 20px;
+}
+
+.projects-anchor {
+    display: inline-block;
+    padding: 20px;
+}
+
+/*
+.kansas-anchor {
+    display: inline-block;
+    padding: 20px;
+}
+
+#specialCharacters {
+    font-family: 'Wavefont', system-ui;
+}
+*/
+
+.quote {
+    display: inline-block;
+    position: absolute;
+    right: 70px;
+}
+
+.disappear-quote {
+    color: white; 
+    position: relative;
+    display: inline-block;
+    transition: 400ms;
+}
+
+.disappear-quote:hover {
+    color: #181818;
+}
+
+.portfolio-banner-container {
+    width: 100vw;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.portfolio-banner {
+    width: 100%;
+    transition: 400ms;
+}
+
+
+#loading {
+    border: 1px solid white;
+    position: absolute;
+    left: 770px;
+    top: 250px;
+}
+
+
+.windowsErrorPop {
+    background-color: white;
+    height: 150px;
+    width: 300px;
+    position: absolute; 
+    top: 300px;
+    left: 750px;
+}
+
+.white-container-letters {
+    color: #181818;
+    transition: 400ms;
+    text-align: center;
+}
+
+.white-container-letters:hover {
+    color: white ;
+
+}
+
+.mywork-banner {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.projects {
+    width: 100vw;
+    position: absolute;
+    text-align: center;
+    padding-top: 190px;
+}
+
+.project-one {
+    display: inline-block;
+    position: absolute;
+    left: 150px;
+    top: 260px;
+}
+
+.project-two {
+    display: inline-block;
+    position: absolute;
+    left: 750px;
+    top: 260px;
+}
+
+.project-three {
+    display: inline-block;
+    position: absolute;
+    left: 1350px;
+    top: 260px;
+}
+
+h1 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+.aboutme-banner-container {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+}
+
+.myname {
+    position: absolute;
+    left: 300px;
+    top: 300px;
+    font-size: 35px;
+}
+
+.reese {
+    transition: 400ms;
+    text-shadow: 3px 3px 3px,
+    2px 2px 2px, 
+    1px 1px 1px,
+    1px 2px 1px,
+    1px 3px 1px;
+}
+
+.reese:hover {
+    color: rgb(255, 148, 148);
+}
+
+.things-i-like {
+    position: absolute;
+    left: 900px;
+    top: 400px;
+}
+
+.i-enjoy {
+    transition: 400ms;
+    font-size: 20px;
+    text-shadow: 3px 3px 3px,
+    2px 2px 2px, 
+    1px 1px 1px,
+    1px 2px 1px,
+    1px 3px 1px;
+}
+
+.i-enjoy:hover {
+    color: rgb(168, 168, 255);
+}
+
+.aboutme-footer-container {
+    position: absolute;
+    top: 700px;
+    left: 500px;
+}
+
+.aboutme-footer {
+    transition: 400ms;
+    text-shadow: 3px 3px 3px,
+    2px 2px 2px, 
+    1px 1px 1px,
+    1px 2px 1px,
+    1px 3px 1px;
+}
+
+.aboutme-footer:hover {
+    color: rgb(255, 255, 146);
+}
+
+.homewow-anchor {
+    display: inline-block;
+    padding: 20px;
+}
+
+.orwow {
+    display: inline-block;
+    padding: 20px;
+}
+
+.projectswow-anchor {
+    display: inline-block;
+    padding: 20px;
+}
+
+.mywork-home-anchor {
+    display: inline-block;
+    padding: 20px;
+}
+
+.mywork-ptag {
+    display: inline-block;
+    padding: 20px;
+}
+
+.mywork-about-anchor {
+    display: inline-block;
+    padding: 20px;
+}
