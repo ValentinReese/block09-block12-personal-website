@@ -96,7 +96,7 @@ a:hover {
 }
 
 
-#loading {
+.moving-image {
     border: 1px solid white;
     position: absolute;
     left: 770px;
